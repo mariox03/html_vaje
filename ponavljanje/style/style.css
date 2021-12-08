@@ -1,0 +1,21 @@
+.glava {
+    width: 100%;
+    height: 300px;
+    background-color: #f1f1f1f1;
+    display: flex;
+}
+.glava1 {
+    flex: 1;
+}
+.glava2 {
+    flex: 10;
+    margin: auto;
+    text-align: center;
+}
+.pasica {
+    width: 100px;
+    height: 450px;
+}
+div {
+    border: 1px solid black;
+}

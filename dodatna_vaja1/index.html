@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <title>Dodatna vaja 1</title>
+    <meta charset="utf-8">
+    <style>
+        table, tr, td, tr {
+            border: 1px solid black;
+        }
+        table {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        tr {
+            text-align: right;
+            vertical-align: bottom;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .naslov {
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="naslov bold">Tabela ima 80% širino okna brskalnika</p>
+    <table style="text-align: center;">
+        <tr class="bold">
+            <td>vrstica\stolpec</td>
+            <td>1.stolpec</td>
+            <td>2.stolpec</td>
+        </tr>
+        <tr>
+            <td class="bold">1.vrstica</td>
+            <td>1.vrstica, 1.stolpec</td>
+            <td>1.vrstica, 2.stolpec</td>
+        </tr>
+        <tr class="bold">
+            <td>Povezava je v poravnana desno spodaj!<br>
+                <a href="https://sl.wikipedia.org/wiki/Formula_1">Formula 1</a>
+            </td>
+            <td colspan="2" rowspan="2" style="color: red;"><img width="50%" src="img/formula.jpg" alt="formula"><br>Slika je velika 50% velikosti celice ter poravnati desno</td>
+        </tr>
+        <tr class="bold">
+            <td>Povezava je v poravnana desno spodaj!<br>
+                <a href="https://sl.wikipedia.org/wiki/Formula_2">Formula 2</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

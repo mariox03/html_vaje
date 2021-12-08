@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gimnazija Ilirska Bistrica</title>
+        <meta charset="utf-8">
+        <style>
+            /*
+            table, tr, td {
+                border: 1px solid black;
+            }
+            */
+            .width {
+                width: 1000px;
+            }
+            .center {
+                text-align: center;
+            }
+            .slika {
+                width: 100%;
+            }
+            .vaje {
+                text-align: center;
+                background-color: yellow;
+            }
+            .form {
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: yellow;
+            }
+            .form2 {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .oranzna {
+                background-color: orange;
+            }
+            .button1 {
+                color: white;
+                background-color: blue;
+            }
+            .button2 {
+                color: yellow;
+                background-color: red;
+            }
+            .podatki {
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="width">
+            <tr>
+                <td><img class="slika" src="img/ilb.jpg"></td>
+                <td>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11173.615932080846!2d14.2501618!3d45.5623141!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd5f0e861f769c9a!2sGimnazija%20Ilirska%20Bistrica!5e0!3m2!1ssr!2ssi!4v1609784252867!5m2!1ssr!2ssi" width="300" height="460"" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td class="vaje" colspan="2">
+                    <form action="https://www.w3schools.com/action_page.php">
+                        Do sedaj narejene vaje: 
+                        <input type="checkbox" name="vaja1" value="Vaja1">
+                        <label for="vaja1"> Vaja 1</label>
+                        
+                        <input type="checkbox" name="vaja2" value="Vaja2">
+                        <label for="vaja2"> Vaja 2</label>
+                        
+                        <input type="checkbox" name="vaja3" value="Vaja3">
+                        <label for="vaja3"> Vaja 3</label>
+
+                        <input type="checkbox" name="vaja4" value="Vaja4">
+                        <label for="vaja4"> Vaja 4</label>
+                </td>
+            </tr>
+            <tr class="oranzna">
+                <td>
+                    <table class="form">
+                        <tr>
+                            <th>Preverjanje znanja</th>
+                            <th>Ocena</th>
+                        </tr>
+                        <tr>
+                            <td>HTML</td>
+                            <td>
+                                <select name="HTML Ocena">
+                                    <option value="Odlično">Odlično</option>
+                                    <option value="Prav dobro">Prav dobro</option>
+                                    <option value="Dobro">Dobro</option>
+                                    <option value="Zadostno">Zadostno</option>
+                                    <option value="Nezadostno">Nezadostno</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>
+                                <select name="CSS Ocena">
+                                    <option value="Odlično">Odlično</option>
+                                    <option value="Prav dobro">Prav dobro</option>
+                                    <option value="Dobro">Dobro</option>
+                                    <option value="Zadostno">Zadostno</option>
+                                    <option value="Nezadostno">Nezadostno</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>
+                                <select name="JavaScript Ocena">
+                                    <option value="Odlično">Odlično</option>
+                                    <option value="Prav dobro">Prav dobro</option>
+                                    <option value="Dobro">Dobro</option>
+                                    <option value="Zadostno">Zadostno</option>
+                                    <option value="Nezadostno">Nezadostno</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <td>
+                        <table class="form2">
+                            <tr>
+                                <td class="center">
+                                        <label for="ime">Vpiši ime</label><br>
+                                        <input type="text" name="ime"><br>
+                                        <label for="priimek">Vpiši priimek</label><br>
+                                        <input type="text" name="priimek">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td class="center podatki" colspan="2">
+                    <input class="button1" type="submit" value="POŠLJI PODATKE">
+                    <input class="button2" type="reset" value="ZBRIŠI PODATKE.">
+                </td>
+            </tr>
+        </form>
+        </table>
+    </body>
+</html>

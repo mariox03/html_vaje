@@ -1,0 +1,25 @@
+.main {
+    width: 100%;
+    text-align: center;
+}
+.parent {
+    border: 5px solid red;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    color: white;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#silver {
+    background-color: silver;
+}
+#blue {
+    background-color: blue;
+}
